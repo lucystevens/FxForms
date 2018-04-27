@@ -59,6 +59,7 @@ public class FxForm<T> extends VBox{
 		
 		JFXButton submit = new JFXButton("Submit");
 		submit.setButtonType(ButtonType.RAISED);
+		submit.setStyle("-fx-background-color:#6c0da8;-fx-font-size:24px;-fx-text-fill:WHITE");
 		submit.setOnAction(this::onSubmit);
 		getChildren().add(submit);
 	}

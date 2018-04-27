@@ -18,9 +18,9 @@ public class FxFormGridpaneLayout extends GridPane implements FxFormLayout {
 	
 	public FxFormGridpaneLayout() {
 		this.setAlignment(Pos.TOP_CENTER);
-		this.setHgap(10);
-		this.setVgap(10);
-		this.setPadding(new Insets(25));
+		this.setHgap(25);
+		this.setVgap(25);
+		this.setPadding(new Insets(50));
 	}
 	
 	@Override
