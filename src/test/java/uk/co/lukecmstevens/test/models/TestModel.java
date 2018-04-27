@@ -5,6 +5,7 @@ import java.time.LocalDate;
 
 import uk.co.lukecmstevens.annotations.FxFormElement;
 import uk.co.lukecmstevens.annotations.FxFormModel;
+import uk.co.lukecmstevens.layout.FxFormPosition;
 
 @FxFormModel
 public class TestModel {
@@ -12,10 +13,12 @@ public class TestModel {
 	@FxFormElement
 	private String string;
 	
-	@FxFormElement
+	@FxFormElement(label = "Double")
+	@FxFormPosition(row = 0, column = 0)
 	private double doub;
 	
-	@FxFormElement
+	@FxFormElement(label = "Int")
+	@FxFormPosition(row = 0, column = 1)
 	private int i;
 	
 	@FxFormElement
